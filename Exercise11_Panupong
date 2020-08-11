@@ -1,0 +1,4 @@
+x = int(input('Input Num:'))
+
+for i in range(x):
+    print(' '*(x-(i+1))+('*'*(i))+('*'*(i+1)))
